@@ -1,0 +1,114 @@
+body{
+    font-family: 'Noto Sans',sans-serif;
+}
+.hero-section{
+    height: 120px;
+    overflow: hidden;
+}
+.hero-image{
+    height: 100px;
+    width: 100%;
+    overflow: clip;
+}
+#profile-image{
+    border-radius: 75px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: -80px;
+    border: 5px solid grey;
+}
+.photo-profile{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.name-section .name{
+    font-size: 26px;
+}
+.name-section .designation{
+    font-size: 16px;
+}
+.mid-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tabs-link-list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+.tabs-link-list a{
+    text-decoration: none;
+    color: #84a59d;
+    
+}
+.tabs-link-list li.selected{
+    background-color: #f28482;
+}
+.tabs-link-list li.selected a{
+    color: black;
+}
+.tabs-link-list li{
+    border: 1px solid #84a59d;
+    padding: 10px;
+}
+.main-section{
+    width: 500px;
+}
+.main-section dt{
+    font-weight: bold;
+}
+.about-me-row{
+    display: flex;
+}
+
+
+
+
+.hobbies ul{
+    text-align: center;
+    gap: 10px;
+}
+.hobbies img{
+    height: 300px;
+
+}
+.hobbies-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.favorites ul{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+
+}
+.favorites li{
+    list-style-type: none;
+}
+.favorites img{
+    height: 300px;
+
+}
+.fav-titles{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+.skills ul{
+    text-align: center;
+    gap: 10px;
+}
+.skills-titles{
+    text-align: center;
+    font-weight: bold;
+}
